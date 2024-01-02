@@ -1,0 +1,96 @@
+
+.myOrdersPage {
+    width: 100vw;
+    max-width: 100%;
+
+    padding: 8vmax 3vmax;
+    box-sizing: border-box;
+    background: linear-gradient(to right , #635dc0, #3027ae);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #myOrdersHeading {
+    text-align: center;
+    font: 400 1.2vmax "Roboto";
+    padding: 0.5vmax;
+    box-sizing: border-box;
+    color: antiquewhite;
+    transition: all 0.5s;
+    background: linear-gradient(to right , #635dc0, #3027ae);;
+  }
+  
+  .myOrdersTable {
+    background:transparent;
+  }
+
+  .myOrdersPage .MuiTablePagination-caption {
+    color: antiquewhite;
+    background: linear-gradient(to right , #3730b1, #352eb1); /* Change the color as needed */
+    font-size: 14px; /* Adjust font size as needed */
+  }
+  /* If you want to style the arrows for navigating between pages */
+  .myOrdersPage .MuiTablePagination-actions button {
+    color: antiquewhite; /* Change the color as needed */
+  }
+
+  .myOrdersPage .MuiTablePagination-actions button:hover {
+    color: #eb4034; /* Change the color as needed */
+  }
+  
+  .myOrdersTable div {
+    font: 300 1vmax "Roboto";
+    color: antiquewhite;
+    border: none;
+  }
+  
+  .myOrdersTable a {
+    color: #eb4034;
+    transition: all 0.5s;
+  }
+  
+  .myOrdersTable a:hover {
+    color: antiquewhite;
+  }
+  
+  .MuiDataGrid-columnHeader {
+    background-color: #eb4034;
+    padding: 1vmax !important;
+  }
+  
+  .MuiDataGrid-columnHeader div {
+    color: rgb(255, 255, 255);
+    font: 500 1.1vmax "Roboto" !important;
+  }
+  
+  .MuiDataGrid-iconSeparator {
+    display: none !important;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .myOrdersPage {
+      padding: 0;
+      height: 93vh;
+    }
+  
+    #myOrdersHeading {
+      font: 400 2.2vmax "Roboto";
+      padding: 4vw;
+    }
+  
+    .myOrdersTable div {
+      font: 300 4vw "Roboto";
+    }
+  
+    .MuiDataGrid-columnHeader {
+      padding: 20px !important;
+    }
+  
+    .MuiDataGrid-columnHeader div {
+      font: 500 5vw "Roboto" !important;
+    }
+  }

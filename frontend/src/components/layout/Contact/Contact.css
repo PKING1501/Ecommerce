@@ -1,0 +1,124 @@
+
+.Containerabc {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    background-color: #eb4034; /* Set your desired background color */
+  }
+   
+  .Box {
+    background-color: #0c0c0c;
+    width: 75%;
+    justify-content: center;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sectionSubText {
+    font-size: 18px;
+    color: #b0a99d;
+    font-family: 'Poppins', sans-serif;;
+    margin-bottom: 10px;
+  }
+  
+  .sectionHeadTextLight {
+    font-family: 'Poppins', sans-serif; /* Use your preferred font */
+    font-weight: 700; /* Adjust as needed */
+    font-size: 100px;
+    color: #6194fb;
+  }
+  
+  .formContainer {
+    display: flex;
+    margin-top: 0;
+    flex-direction: column;
+    gap: 6px;
+    font-family: 'Poppins', sans-serif; /* Use your desired font family */
+    font-size: 16px;
+  }
+
+  .form-label{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-text{
+    color: antiquewhite;
+    padding: 1vmax;
+    font-family: 'TimberWolf', sans-serif; /* Use the actual font name you want */
+    font-size: 18px; /* Set the default font size */
+    font-weight: medium; /* Set the default font weight */
+    margin-bottom: 4px;
+  }
+
+  .form-input {
+    background-color: #0c0c0c;
+    padding: 12px;
+    color: #6194fb;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid #b0a99d ;
+    font-family: 'TimberWolf', sans-serif; /* Replace 'Your-Desired-Font' with the actual font name you want to use */
+    font-size: 16px;
+  }
+  
+  .form-textarea {
+    background-color: #0c0c0c;
+    padding: 12px;
+    color: #6194fb;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid #b0a99d ;
+    font-family: 'TimberWolf', sans-serif; /* Replace 'Your-Desired-Font' with the actual font name you want to use */
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  .submitButton {
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+    font-size: 16px; /* Set your desired font-size */
+    font-family: 'Your-Font', sans-serif; /* Set your desired font-family */
+    font-weight: bold;
+    background-color: #0c0c0c;
+    color: antiquewhite;
+    padding: 5px;
+    width: 100px;
+    height: 45px;
+    border-radius: 10px;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .submitButton:hover {
+    background-color: #6194fb;
+    color: #0c0c0c;
+  }
+  
+  .contact-btn {
+    margin-left: 5px;
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+  }
+  
+  .contact-btn:hover {
+    transform: scale(1.1);
+  }
+  
+  @media screen and (max-width: 768px) {
+    .sectionHeadTextLight{
+      font-size: 24px; /* Adjust the font size for smaller screens */
+    }
+    .formContainer{
+        font-size: 14px; /* Adjust the font size for smaller screens */
+    }
+    .form-text{
+        font-size: 16px;
+    }
+  }
